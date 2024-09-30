@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import img from "./../../assets/Mohamed reda photo.jpeg";
+import img from "./../../assets/about-BgAkqdr2.jpg";
 
 export default function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -58,7 +58,7 @@ export default function Navbar() {
         } lg:translate-x-0`}
         aria-label="Sidebar"
       >
-        <div className="h-full px-3 py-4  overflow-y-auto flex flex-col items-center pt-14 bg-gray-50 ">
+        <div className="h-full px-3 py-4 overflow-y-auto flex flex-col items-center pt-14 bg-gray-50 ">
           <img
             src={img}
             alt=""
